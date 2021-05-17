@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Leo Stein an Edmund Eysler. Vöslau, 10. Juli 1911</title>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/109683720X">
+                  <surname>Schönbauer</surname>
+                  <forename>Martin</forename>
+               </persName>
+            </editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>
+                        Wienbibliothek im Rathaus
+                     </institution>
+                     <idno>ZPH 801 a Keller 2: ZPH 801 a</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="http://d-nb.info/gnd/104278064">Leo Stein</persName>
+              <placeName ref="https://www.geonames.org/2782043/bad-voeslau.html">Vöslau</placeName>
+              <date when="1911-07-10">1911-07-10</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="http://d-nb.info/gnd/11868289X">Edmund Eysler</persName>
+           </correspAction>
+        </correspDesc>
+     </profileDesc>
+  </teiHeader>
+   <facsimile>
+      <graphic url="images/IMG_0036.JPG" xml:id="Seite1"/>
+      <graphic url="IMG_0037.JPG" xml:id="Seite2"/>
+      <graphic url="IMG_0038.JPG" xml:id="Seite3"/>
+      <graphic url="IMG_0039.JPG" xml:id="Seite4"/>
+   </facsimile>
+  <text>
+      <body>
+         <pb n="1"/>
+         <div type="letter">
+         <opener>
+            <dateline>Villa Stein <placeName>Vöslau</placeName>, <date>10.VII.1911</date>
+            <address><addrLine>Langegasse 4</addrLine></address></dateline>
+               <lb/>Lieber Mundi,</opener>
+            <p>
+               <lb/>Du hast uns mit deiner Musik gestern ein großes
+               <lb/>Vergnügen bereitet und mich mit berechtigten Hoffnungen
+               <lb/>gefüllt. Die Sacherln sind frisch, sangesfreudig und ich
+               <lb/>bin glücklich, daß dich Stoff und Texte anregen. Hoffentlich
+               <lb/>gelingt uns auch das ganze Buch <abbr>u.</abbr> das Publikum geht
+               <lb/>mit. Aber um das zu erreichen, müßen wir sehr vorsichtig,
+               <lb/>sehr wählerisch und sehr rigoros uns gegenüber sein.
+               <lb/>Es klappt noch nicht alles, es sind noch Kleinigkeiten</p>
+            <pb n="2"/>
+            <p><lb/>und es ist noch Zeit genug, manches zu richten. Ich bin ja
+               <lb/>zunächst nicht für laute Reißer, aber ich bin für die Vermeidung
+               <lb/>von Nieten.</p>
+               <p><lb/>Also 1. Akt:
+                  <list>
+               <item><lb/>1.) Introduction lieb und frisch</item>
+               <item><lb/>2.) "Sei <unclear>[...]</unclear> Mein" famos</item>
+               <item><lb/>3.) Duett Kamill-Tilly. Da ist eine drigende Reparatur
+               <lb/>notwendig. Ich bin auch vom 1. Teil " <unclear>[...]</unclear> bitte..." nicht sehr
+               <lb/>entzückt. Er ist mir zu sehr <unclear>[...]</unclear> 2/4, ich hätte da etwas
+               <lb/>graziöseres erwartet. Wenn er aber bleibt, dann muß wenigstens
+               <lb/>der Refrain sehr hübsch werden, denn die Nummer 3 muss schon sehr
+               <lb/>Stimmung machen. Etwa eine sehr melodiöse Mazurka, wie du sie
+               <lb/>ja gut triffst, die dann in den Walzer übergeht?</item></list></p>
+            <pb n="3"/>
+            <p><list><item><lb/>4.) Lied Mary sehr dankbar</item>
+               <item><lb/>5.) Terzett. Da bitte ich dich wegen des Refrains dir bei <persName ref="http://d-nb.info/gnd/132062968">Herzmansky</persName>
+               <lb/>"junger Herr" zu borgen <abbr>u.</abbr> mit dem Refrain "Wir sind zwei kleine
+               <lb/>Komtessen" <unclear>[...]</unclear>. <unclear>Es/er</unclear> scheint mir eine große Ähnlichkeit u. Du
+                  <lb/>hast es nicht notwendig, dir v. <persName ref="http://d-nb.info/gnd/11875582X">Straus</persName> was nachsagen zu lassen.
+         <lb/>Nachspiel sehr gut.</item>
+               <item><lb/>6.) Finale I. - erstklassig. - </item></list></p>
+               <p><lb/>2. Akt:
+              <list><item><lb/>1.) Introduction - fesch</item>
+               <item><lb/>2.) Briefe-Duett - glänzend - </item>
+               <item><lb/>3.) Duett Tilly-Kamillo - erster Teil reizend - zweiter matt.
+               <lb/>der gehört etwas heller, sanglicher, <unclear>b[...]</unclear>, etwa wie der 2te.
+               <lb/>Teil deines 1ten Tanzwalzers aus "<name>Lump</name>". Ich textiere dir alles
+               <lb/>nach, was du machst.</item>
+               <item><lb/>4.) Tanzscene, französischer Walzer sehr lieb. Refrain nicht so stark,</item></list></p>
+            <pb n="4"/>
+            <p><list><item><lb/>wie er sein müßte. Und das soll die Nummer sein! Das müßte das
+               <lb/>"<name>Küssen ist keine Sünd</name>" werden, das "<name>Künstlerblut</name>". Wenn man das
+               <lb/>mitsummt und nachschnipft (Mitte des 2. Aktes! Wendepunkt!!), dann
+               <lb/>ist's die Sache!! Und es wird dir einfallen.</item>
+               <item><lb/>5.) Ella hopp-Schlager!</item>
+               <item><lb/>6.) Polka - Reißer!</item></list></p>
+               <p><lb/>Den Finale-Schluß entwerfe ich, schick ihn dir, dann kommen
+               <lb/>wir zusammen <abbr>u.</abbr> arbeiten ihn durch.-
+               <lb/>Auf Wiedersehen voraussichtlich Donnerstag.</p>
+            <closer><lb/>Grüße von Villa zu Villa
+               <lb/>Es umarmt dich dein treuer
+         <lb/>Leo.</closer></div>
+      </body>
+  </text>
+   <standOff>
+      <listPerson>
+         <person>
+            <name xml:id="BH">
+               <forename>Bernhard</forename>
+               <surname>Herzmansky</surname>
+            </name>
+            <birth>1852-12-06</birth>
+            <death>1921-05-18</death>
+         </person>
+         <person>
+            <name xml:id="OS">
+               <forename>Oscar</forename>
+               <surname>Straus</surname>
+            </name>
+            <birth>1870-03-06</birth>
+            <death>1954-01-11</death>
+         </person>
+      </listPerson>
+   </standOff>
+</TEI>

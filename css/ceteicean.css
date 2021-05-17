@@ -1,0 +1,55 @@
+body {
+    margin-top: 50px;
+    margin: auto;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 0px;
+    border-color: steelblue;
+    width: 700px;
+    padding: 12px;
+    text-align: justify;
+    font-family: cambria
+}
+
+tei-pb {
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+tei-p {
+    display: block;
+    margin-top: .5em;
+    margin-bottom: .5em;
+  }
+
+tei-item {
+    display: block;
+    margin-top: .2em;
+    margin-bottom: .2em;
+}
+
+tei-opener tei-lb {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+tei-standOff {
+    display: block;
+    border-style: dotted;
+    border-width: .5px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+tei-person {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+tei-body tei-name {
+  font-style: bold;
+  color: red;
+}

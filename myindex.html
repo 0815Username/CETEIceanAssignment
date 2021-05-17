@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang =="de">
+  <head>
+    <title>Ceteicean-Assignment Schönbauer</title>
+<meta charset=="utf 8">
+<meta name ="viewport " content="width=device-width, initial scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="css/ceteicean.css"/>
+<script src="js/CETEI.js"></script>
+<script>
+    let c = new CETEI();
+  c.getHTML5("data/1911 07 10 Leo Stein V3.xml", function(data) {
+    document.getElementsByTagName("body") [0].appendChild(data);
+  });
+
+let behaviours = {
+  "tei": {
+    "unclear" : ["", "*"],
+    "persName": [
+      ["[ref]", ["<a href=\"$rw@ref\" target=\"_blank\">","</a>"]]
+    ],
+    "birth": ["- geboren am: "],
+    "death": ["- gestorben am: "],
+  }
+};
+c.addBehaviors(behaviours);
+
+  </script>
+</head>
+<body>
+</body>
+</html>
